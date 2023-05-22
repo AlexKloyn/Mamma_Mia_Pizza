@@ -1,0 +1,225 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #E63946;
+    padding: 20px;
+}
+
+.logo img {
+    height: 35px;
+    width: 35px;
+    border: 2px solid #000;
+    padding: 2px;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.logo img:hover {
+    transform: scale(1.15);
+    box-shadow: 0 0 10px rgb(255, 244, 244);
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    display: inline-block;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.column {
+    width: calc(50% - 10px);
+}
+
+.menu-section {
+    padding: 30px 0;
+}
+
+
+.menu-section h2 {
+    font-size: 24px;
+    color: #333333;
+    margin-bottom: 10px;
+}
+
+.menu-item {
+    padding: 20px;
+    margin-bottom: 20px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+}
+
+h1 {
+    text-align: start;
+    padding-left: 20px;
+    opacity: 100%;
+}
+
+.menu-item h3 {
+    font-size: 20px;
+    color: #333333;
+}
+
+.menu-item p {
+    color: #666666;
+    margin-bottom: 10px;
+}
+
+.add-to-cart-button {
+    display: block;
+    padding: 10px 20px;
+    background-color: #E63946;
+    color: #FFFFFF;
+    text-decoration: none;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #E63946;
+    color: #FFFFFF;
+    padding: 10px;
+    text-align: center;
+}
+
+.pizzeria {
+    display: flex;
+    height: 440px;
+    width: 730px;
+    border: 2px solid #E63946;
+    border-radius: 10px;
+    margin-top: 90px;
+}
+
+div .add-to-cart-button {
+    transition: background-color 0.3s ease;
+}
+
+div .add-to-cart-button:hover {
+    background-color: #333;
+    color: #FFFFFF;
+}
+
+.pizza1 {
+    background-image: linear-gradient(to right, rgba(227, 190, 193, 0.9) 20%, rgba(234, 161, 167, 0.292)), url("https://kingpizza.kh.ua/resources/products/20220219154125_e348884.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.pizza2 {
+    background-image: linear-gradient(to right, rgba(227, 190, 193, 0.9) 20%, rgba(234, 161, 167, 0.292)), url("https://divine-pizza.com.ua/sites/default/files/pizza-papperoni-zakaz-dostavka-irpen-bucha.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.pizza3 {
+    background-image: linear-gradient(to right, rgba(227, 190, 193, 0.9) 20%, rgba(234, 161, 167, 0.292)), url("https://drugpovar.ru/wp-content/uploads/2016/11/Gavajskaya-pitstsa.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.pizza4 {
+    background-image: linear-gradient(to right, rgba(160, 137, 138, 0.9) 20%, rgba(234, 161, 167, 0.292)), url("https://makkam.ru/d/pizza_09_syrnaya_zoom2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.topping1 {
+    background-image: linear-gradient(to right, rgba(227, 190, 193, 0.9) 0%, rgba(234, 161, 167, 0.292)), url("https://s8.stc.all.kpcdn.net/family/wp-content/uploads/2022/04/shampinony-polza-i-vred_oblogka960-960x540.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.topping2 {
+    background-image: linear-gradient(to right, rgba(227, 190, 193, 0.9) 20%, rgba(234, 161, 167, 0.292)), url("https://www.ivetta.ua/wp-content/uploads/2021/08/Olivki-luchshij-szhigatel-lishnego-zhira.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.additional1 {
+    background-image: linear-gradient(to right, rgba(227, 190, 193, 0.9) 20%, rgba(234, 161, 167, 0.292)), url("https://img.povar.ru/main-micro/64/12/b0/54/kartofel_fri_v_domashnih_usloviyah-36496.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.additional2 {
+    background-image: linear-gradient(to right, rgba(227, 190, 193, 0.9) 20%, rgba(234, 161, 167, 0.292)), url("https://cdn.lifehacker.ru/wp-content/uploads/2021/10/2_1634551409-scaled-e1634551464449-1280x640.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.additional4 {
+    background-image: linear-gradient(to right, rgba(227, 190, 193, 0.9) 20%, rgba(234, 161, 167, 0.292)), url("https://lifehacker.ru/wp-content/uploads/2018/03/Soup_1521062887.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.additional5 {
+    background-image: linear-gradient(to right, rgba(227, 190, 193, 0.9) 20%, rgba(234, 161, 167, 0.292)), url("https://cdn.lifehacker.ru/wp-content/uploads/2022/02/Depositphotos_273531608_XL_1646050670-scaled-e1646050745667-1280x640.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.menu-item h3,
+.menu-item p,
+.menu-item button {
+    color: #000000;
+}
+
+@media only screen and (max-width: 700px) {
+
+    /* Медиазапрос для устройств с максимальной шириной 600px */
+    .container {
+        flex-direction: column;
+    }
+
+    .column {
+        width: 100%;
+    }
+
+    .pizzeria {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+
+    .pizzeria {
+        display: none;
+    }
+
+    .topping1, .topping2{
+        flex-direction: column;
+    }
+}

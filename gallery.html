@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Mamma Mia Pizza - Галерея</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
+    <style>
+        .gallery-section {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 50px;
+            background-color: #F8F8F8;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .gallery-section h2 {
+            font-size: 32px;
+            color: #333333;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+
+        .gallery-item img {
+            width: 300px;
+            height: 200px;
+            border-radius: 10px;
+            overflow: hidden;
+            position: relative;
+            transition: transform 0.3s ease;
+            box-shadow: black 0 0 10px ;
+        }
+
+        .gallery-item img:hover {
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul class="logo">
+                <li><a href="index.html"><img src="https://cdn-icons-png.flaticon.com/512/3132/3132693.png"
+                            alt="Главная"></a></li>
+                <li><a href="menu.html"><img src="https://cdn-icons-png.flaticon.com/512/3428/3428655.png"
+                            alt="Меню"></a></li>
+                <li><a href="about.html "><img src="https://static.thenounproject.com/png/4149189-200.png"
+                            alt="О нас"></a></li>
+                <li><a href="gallery.html"><img
+                            src="https://cdn.icon-icons.com/icons2/2440/PNG/512/gallery_icon_148533.png"
+                            alt="Галерея"></a></li>
+                <li><a href="rewiew.html"><img
+                            src="https://img.uxwing.com/wp-content/themes/uxwing/download/communication-chat-call/feedback-icon.png"
+                            alt="Отзывы"></a></li>
+                <li><a href="feedback.html"><img src="https://cdn-icons-png.flaticon.com/512/3095/3095583.png"
+                            alt="Контакты"></a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="gallery-section">
+        <h2>Галерея</h2>
+        <div class="gallery">
+            <div class="gallery-item">
+                <a href="https://images.pexels.com/photos/1566837/pexels-photo-1566837.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                    data-fancybox="gallery" data-caption="Image 1">
+                    <img src="https://images.pexels.com/photos/1566837/pexels-photo-1566837.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                        alt="Image 1">
+                </a>
+            </div>
+            <div class="gallery-item">
+                <a href="https://images.pexels.com/photos/3915855/pexels-photo-3915855.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                    data-fancybox="gallery" data-caption="Image 2">
+                    <img src="https://images.pexels.com/photos/3915855/pexels-photo-3915855.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                        alt="Image 2">
+                </a>
+            </div>
+            <div class="gallery-item">
+                <a href="https://images.pexels.com/photos/5175556/pexels-photo-5175556.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                    data-fancybox="gallery" data-caption="Image 3">
+                    <img src="https://images.pexels.com/photos/5175556/pexels-photo-5175556.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                        alt="Image 3">
+                </a>
+            </div>
+            <div class="gallery-item">
+                <a href="https://images.pexels.com/photos/2271196/pexels-photo-2271196.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                    data-fancybox="gallery" data-caption="Image 3">
+                    <img src="https://images.pexels.com/photos/2271196/pexels-photo-2271196.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                        alt="Image 4">
+                </a>
+            </div>
+            <div class="gallery-item">
+                <a href="https://images.pexels.com/photos/4773769/pexels-photo-4773769.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                    data-fancybox="gallery" data-caption="Image 3">
+                    <img src="https://images.pexels.com/photos/4773769/pexels-photo-4773769.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                        alt="Image 5">
+                </a>
+            </div>
+            <div class="gallery-item">
+                <a href="https://images.pexels.com/photos/905847/pexels-photo-905847.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                    data-fancybox="gallery" data-caption="Image 3">
+                    <img src="https://images.pexels.com/photos/905847/pexels-photo-905847.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                        alt="Image 6">
+                </a>
+            </div>
+            <div class="gallery-item">
+                <a href="https://images.pexels.com/photos/11330947/pexels-photo-11330947.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                    data-fancybox="gallery" data-caption="Image 3">
+                    <img src="https://images.pexels.com/photos/11330947/pexels-photo-11330947.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                        alt="Image 7">
+                </a>
+            </div>
+            <div class="gallery-item">
+                <a href="https://images.pexels.com/photos/11482921/pexels-photo-11482921.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                    data-fancybox="gallery" data-caption="Image 3">
+                    <img src="https://images.pexels.com/photos/11482921/pexels-photo-11482921.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                        alt="Image 8">
+                </a>
+            </div>
+            <div class="gallery-item">
+                <a href="https://images.pexels.com/photos/1893555/pexels-photo-1893555.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                    data-fancybox="gallery" data-caption="Image 3">
+                    <img src="https://images.pexels.com/photos/1893555/pexels-photo-1893555.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                        alt="Image 9">
+                </a>
+            </div>
+        </div>
+    </section>
+
+
+    <footer>
+        <p>&copy; 2023 Mamma Mia Pizza. Все права защищены.</p>
+    </footer>
+    <script>
+        $(document).ready(function () {
+            $('.gallery-item a').fancybox({
+                buttons: [
+                    'zoom',
+                    'share',
+                    'slideShow',
+                    'fullScreen',
+                    'download',
+                    'thumbs',
+                    'close'
+                ],
+                loop: true
+            });
+        });
+    </script>
+
+</body>
+
+</html>
